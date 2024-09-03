@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.add_runtime_dependency 'resque-web', '~> 0.0.8'
+  # spec.add_runtime_dependency 'resque-web', '~> 0.0.8'
   spec.add_runtime_dependency 'resque-scheduler', '~> 4.0'
 
   spec.add_development_dependency 'bundler'
@@ -38,5 +38,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rubocop-rspec', '~> 1.0'
   spec.add_development_dependency 'launchy', '~> 2.4'
   # Avoids non-thread-safe error.
-  spec.add_development_dependency 'sass', '~> 3.4'
+  # spec.add_development_dependency 'sass', '~> 3.4'
 end
